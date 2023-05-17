@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_text_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"/>
+
+    <EditText
+        android:id="@+id/edit_text_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"/>
+
+    <EditText
+        android:id="@+id/edit_text_gpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="GPA"/>
+
+    <Button
+        android:id="@+id/button_goto_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Profile" />
+
+    <Button
+        android:id="@+id/button_clear_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear All" />
+
+    <Button
+        android:id="@+id/button_goto_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to List" />
+
+</LinearLayout>
